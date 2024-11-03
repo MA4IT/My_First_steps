@@ -1,0 +1,129 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 17px;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+}
+
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  max-width: 20vw;
+  max-height: 100%;
+  text-align: left;
+  padding: 0 10px;
+}
+
+header {
+  margin: 25px 0px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#navbar a {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: auto 5px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(83, 83, 83);
+}
+
+#navbar > a:hover {
+  background-color: lightgray;
+  color: blue;
+}
+
+
+#main-doc {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 80vw;
+}
+
+#main-doc > .main-section {
+  padding: 0 15px;
+  margin: 2px 0;
+  text-align: left;
+  align-self: end;
+  width: 100%;
+}
+
+
+
+
+
+#About_Our_Company > ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+
+#About_Our_Company p:nth-last-of-type(2){
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+#About_Our_Company 
+address {
+  font-weight: 600;
+}
+
+.main-section p {
+  margin-top: 10px;
+}
+
+#Sustainability ul > li, #Packing_Solutions ul > li {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#main-doc .main-section:nth-child(3), .main-section:nth-child(1), .main-section:nth-child(5)  {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+#main-doc .main-section:nth-child(2), .main-section:nth-child(4) {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+#Service_and_Consulting > #cdi_plan {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+  
+}
