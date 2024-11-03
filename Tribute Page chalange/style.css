@@ -1,0 +1,269 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 150%;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  background-color: rgb(251, 251, 199);
+}
+
+header {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #c4c4c4 15%, #603f3f 55%, #7e7e7e );
+  font-size: 12px;
+  padding: 5px 25px;
+}
+
+header img {
+  max-width: 20%;
+  min-width: 15%;
+  width: 100px;
+  height: 75px;
+  align-self: center;
+}
+
+h2 {
+  align-self: center;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(255, 242, 242);
+  max-width: 50%;
+  min-width: 25%;
+}
+
+h2 sub {
+  font-size: 10px;
+  margin: 0 3px;
+}
+
+nav ul > li a{
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: rgb(255, 243, 243);
+
+}
+
+
+li a:hover {
+  background-color: rgb(222, 222, 222);
+  color: rgb(0, 0, 0);
+}
+
+nav ul > li {
+  list-style: none;
+}
+
+.separator {
+  width: 65%;
+  height: 10px;
+  background-color: rgb(245, 241, 241);
+  margin: 20px auto;
+}
+
+main {
+  width: 950px;
+  max-width: 95%;
+  min-width: 450px;
+  margin: auto;
+}
+
+#main-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px;
+  width: 100%;
+  min-width: 50%;
+  text-align: center;
+}
+
+#main-section h1 {
+  margin: 35px 0;
+  align-self: center;
+  
+}
+
+h1, h1 span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+span {
+  color: #7e7e7e;
+  margin: 0 15px;
+  text-shadow: 2px 4px 3px rgb(126, 139, 152);
+}
+
+#main-section figure {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure #image {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  max-height: 95%;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+
+#img-caption  em {
+  font-size: 14px;
+}
+
+section p {
+  line-height: 1.3rem;
+  margin: 10px 0;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+#tribute-info #special-bottle {
+  display: flex;
+  font-size: 14px;
+}
+
+#tribute-info p img {
+  width: 350px;
+  max-width: 65%;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
