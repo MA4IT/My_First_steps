@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+  <title>MA Login Form</title>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+
+
+  <header>
+
+    <h1 id="title">Register to My First Project</h1>
+
+    <p id="description">Please share your programming preferences with me:</p>
+
+  </header>
+
+
+
+  <section>
+
+    <form action="" method="post" id="survey-form">
+
+      <fieldset>
+
+        <label for="name" id="name-label" class="details"> Full Name: </label> <input type="text" id="name"
+          class="personal_details" name="Full-name" placeholder="Enter Your Name" required />
+
+        <label for="email" id="email-label" class="details"> Email address: </label> <input type="email" id="email"
+          class="personal_details" name="email" placeholder="Enter Your Email" required />
+
+        <label for="number" id="number-label" class="details">How old are you: </label> <input id="number"
+          class="personal_details" type="number" name="num" min="18" max="90" placeholder="18+" required />
+
+      </fieldset>
+
+
+
+      <fieldset>
+
+        <label for="dropdown" class="option">What programming language you want to learn?</label>
+
+        <select id="dropdown" name="options">
+          <option value="chose a option">Chose an option</option>
+          <option value="first">HTML & CSS</option>
+          <option value="second">JavaScript</option>
+          <option value="third">Python</option>
+          <option value="fourth">Java</option>
+          <option value="fifth">C##</option>
+          <option value="sixth">C++</option>
+          <option value="seventh">Other</option>
+        </select>
+
+        <p class="question">What department of programming are you interested?</p>
+
+        <input type="radio" class="department" name="purpose" value="Web Developer" checked /> <label
+          class="description" for="web_dev">Web Developer</label>
+        <input type="radio" class="department" name="purpose" value="Analyst" /> <label class="description"
+          for="analyst">Analyst</label>
+        <input type="radio" class="department" name="purpose" value="Network Administrator" /> <label
+          class="description" for="net_admin">Network Administrator</label>
+        <input type="radio" class="department" name="purpose" value="Network Engineer" /> <label class="description"
+          for="net_eng">Network Engineer</label>
+        <input type="radio" class="department" name="purpose" value="Software Architect" /> <label class="description"
+          for="software_arht">Software Architect </label>
+        <input type="radio" class="department" name="purpose" value="Data Scientist" /> <label class="description"
+          for="data">Data Scientist </label>
+        <input type="radio" class="department" name="purpose" value="Computer Programming" /> <label class="description"
+          for="comp_prog">Computer Programming </label>
+
+        <p class="question">Which web-application are you interested?</p>
+
+        <label for="frontend" class="application-name"> <input type="checkbox" name="frontend" id="frontend"
+            value="frontend"> Front-end</label>
+        <label for="backend" class="application-name"> <input type="checkbox" name="backend" id="backend"
+            value="backend"> Back-end</label>
+        <label for="cyber-security" class="application-name"> <input type="checkbox" name="cyber-security"
+            id="cyber-security" value="cyber-security"> Cyber-security</label>
+        <label for="full-stack" class="application-name"> <input type="checkbox" name="full-stack" id="full-stack"
+            value="full-stack"> Full-stack</label>
+
+      </fieldset>
+
+
+      <fieldset>
+
+        <label for="comment" class="comm">Leave your comment:</label>
+
+        <textarea name="comment" id="comment" cols="40" rows="8" placeholder="Leave a comment:"></textarea>
+
+
+      </fieldset>
+
+
+      <input id="submit" type="submit" value="Submit" placeholder="Submit" class="btn">
+
+    </form>
+
+  </section>
+
+
+  <footer>
+
+    <p id="t_mark"> &#174; Marian Alexandru</p>
+  </footer>
+
+
+</body>

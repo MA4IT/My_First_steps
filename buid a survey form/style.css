@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: Tahoma;
+}
+
+body {
+  background-color: #00191a;
+  color: #f0feff;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px auto;
+}
+
+#description {
+  font-size: 1.2em;
+  margin: 45px;
+}
+
+#survey-form {
+  width: 70%;
+  max-width: 95%;
+  min-width: 50%;
+  margin: auto;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px lightblue;
+}
+
+fieldset {
+  margin: 0.5em auto;
+  border-radius: 10px;
+  padding: 10px 5px;
+  max-width: 80%;
+}
+
+.details,
+.option {
+  margin: 5px;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.personal_details {
+  display: block;
+  text-align: center;
+  outline: none;
+  width: 40%;
+  margin: 0.5rem auto;
+  font-size: 1.3rem;
+  border-radius: 0.2rem;
+  border-style: none;
+  transition: 0.2s linear;
+}
+
+#name:hover,
+#email:hover {
+  transform: scale(1.1);
+}
+
+#name:active,
+#email:active {
+  box-shadow: 0 0 0.2rem 0.2rem lightseagreen;
+}
+
+#number {
+  width: 15%;
+  margin: 5px auto;
+}
+
+#number:focus {
+  box-shadow: 0 0 0.2rem 0.2rem lightseagreen;
+}
+
+#dropdown {
+  display: block;
+  text-align: center;
+  outline: none;
+  width: 50%;
+  margin: 10px auto;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.question {
+  margin: 10px 5px;
+  display: block;
+  font-size: 1.2rem;
+}
+.department {
+  margin: 5px;
+  vertical-align: center;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.description {
+  margin: 2px;
+  width: 95%;
+  display: inline-block;
+}
+
+.application-name {
+  display: block;
+  font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px;
+}
+
+.comm {
+  font-size: 1.2rem;
+  display: block;
+  margin: 5px;
+}
+
+#comment {
+  margin: 0.5rem auto;
+  display: block;
+  padding: 5px;
+  outline: none;
+  border-radius: 10px;
+  border-style: none;
+  min-width: 75%;
+}
+
+#submit {
+  margin: 1rem auto;
+  display: block;
+  width: 25%;
+  height: 2.5rem;
+  padding: 0 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.2rem;
+  border-style: none;
+  background-color: #b1fcf9;
+  color: black;
+  translate: 0.2s linear;
+}
+
+#submit:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.5rem 0.2rem lightgray;
+}
+
+#submit:active {
+  background-color: black;
+  color: #b1fcf9;
+}
+
+#t_mark {
+  margin: 35px;
+  text-align: right;
+}
