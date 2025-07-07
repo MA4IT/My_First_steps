@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="61.581409mm"
+   height="15.002085mm"
+   viewBox="0 0 61.581409 15.002085"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#ffffff00" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#494949;stop-opacity:0.67961162;"
+         offset="1"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#050404;stop-opacity:1;"
+         offset="0.83999997"
+         id="stop4" />
+      <stop
+         style="stop-color:#050303;stop-opacity:0.71844661;"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <rect
+       x="128.5769"
+       y="291.82623"
+       width="221.0367"
+       height="150.96951"
+       id="rect1" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="130.03452"
+       y1="305.44525"
+       x2="245.6857"
+       y2="305.44525"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient7"
+       x1="130.03452"
+       y1="305.44525"
+       x2="245.6857"
+       y2="305.44525"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-57.233446,-58.177138)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.52733921,0,0,0.66941276,-11.041848,-138.79077)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';white-space:pre;shape-inside:url(#rect1);opacity:1;mix-blend-mode:normal;fill:url(#linearGradient3);fill-rule:nonzero;stroke:url(#linearGradient7);stroke-width:0.999757;stroke-linecap:round;stroke-dasharray:none"><tspan
+         x="128.57617"
+         y="314.99605"
+         id="tspan3"><tspan
+           style="fill-opacity:0.362903"
+           id="tspan2">M. A  4 it</tspan></tspan></text>
+  </g>
+</svg>
